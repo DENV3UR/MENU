@@ -10,17 +10,19 @@ body {
 
 header {
   margin-bottom: auto;
-  height: 80px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+header .nav {
+  height: 80px;
 }
 header .title {
   align-self: center;
-  margin: 0px;
 }
 
-footer {
+.main_footer {
   margin-top: auto;
   height: 80px;
   width: 100%;
@@ -28,14 +30,31 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
-footer .footer_text {
+.main_footer .footer_text {
   align-self: center;
   margin: 0px;
   padding: 5px;
 }
 
+.menu1_footer {
+  margin-top: auto;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 a {
   text-decoration: none;
+}
+
+.icon_footer {
+  padding: 0.83em;
+}
+
+.icon {
+  padding-top: 40px;
 }
 
 .btn {
@@ -106,6 +125,12 @@ a {
   color: #FDCA45;
 }
 
+.color9 {
+  background: -webkit-linear-gradient(1turn, #EF2547, #F69169);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .comics {
   font-family: Comic Sans MS;
 }
@@ -116,6 +141,38 @@ a {
 
 .time {
   font-family: Times New Roman, Times, serif;
+}
+
+.starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.main_food {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.desert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.dish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
