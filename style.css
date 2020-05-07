@@ -159,6 +159,18 @@ a {
   color: #6E4CCC;
 }
 
+.color12 {
+  color: #0429DD;
+}
+
+.color13 {
+  color: #046FF3;
+}
+
+.color14 {
+  color: #229DF9;
+}
+
 .comics {
   font-family: Comic Sans MS;
 }
@@ -205,6 +217,10 @@ a {
 
 .rotate {
   transform: rotate(180deg);
+}
+
+.rotateY {
+  transform: rotateY(180deg);
 }
 
 /*# sourceMappingURL=style.css.map */
