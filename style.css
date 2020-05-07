@@ -58,6 +58,8 @@ h4 {
 
 .subtitle {
   align-self: center;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 a {
@@ -149,6 +151,14 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.color10 {
+  color: #A56799;
+}
+
+.color11 {
+  color: #6E4CCC;
+}
+
 .comics {
   font-family: Comic Sans MS;
 }
@@ -193,16 +203,8 @@ a {
   padding: 10px;
 }
 
-.bckgrnd_line {
-  border-top: 2px solid #5BAB4A;
-  margin: 0 auto;
-  position: relative;
-  top: 50%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 90%;
-  z-index: -1;
+.rotate {
+  transform: rotate(180deg);
 }
 
 /*# sourceMappingURL=style.css.map */
