@@ -45,12 +45,29 @@ header .title {
   justify-content: center;
 }
 
+img {
+  width: 90px;
+}
+
+h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-end: 0em;
+}
+
+.subtitle {
+  align-self: center;
+}
+
 a {
   text-decoration: none;
 }
 
 .icon_footer {
-  padding: 0.83em;
+  padding-top: 0.83em;
+  padding-bottom: 0.83em;
+  padding-right: 0.3em;
 }
 
 .icon {
@@ -89,6 +106,7 @@ a {
 
 .color1 {
   color: #3A0F15;
+  fill: #3A0F15;
 }
 
 .color2 {
@@ -173,6 +191,18 @@ a {
   justify-content: center;
   text-align: center;
   padding: 10px;
+}
+
+.bckgrnd_line {
+  border-top: 2px solid #5BAB4A;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */
