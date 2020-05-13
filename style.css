@@ -37,6 +37,8 @@ main {
   justify-content: center;
 }
 .main_footer .footer_text {
+  font-weight: bold;
+  color: #FDCA45;
   align-self: center;
   margin: 0px;
   padding: 5px;
