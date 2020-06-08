@@ -23,11 +23,10 @@ header .title {
 }
 
 main {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .main_footer {
-  position: fixed;
   bottom: 0;
   margin-top: auto;
   height: 80px;
@@ -103,14 +102,15 @@ a {
   justify-content: center;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.btn:hover {
-  opacity: 0.5;
-  font-size: 25px;
+  transition: opacity 0.3s ease-in-out, font-size 0.3s ease-in-out;
 }
 
 .bckgrnd1 {
   background-color: #FCDFDB;
+}
+.bckgrnd1.btn:hover {
+  background: rgba(252, 223, 219, 0.6);
+  font-size: 25px;
 }
 
 .bckgrnd2 {
@@ -360,11 +360,54 @@ p.subtitle8:before {
     text-shadow: 0.25em 0 0 #FDCA45, 0.5em 0 0 #FDCA45;
   }
 }
+.model {
+  display: none;
+}
+
+.svg {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.size1-left {
+  height: 35px;
+  width: 120px;
+}
+
+.size1-right {
+  width: 120px;
+  height: 23px;
+}
+
+.svg1 {
+  fill: #3A0F15;
+}
+
+.svg2 {
+  fill: blue;
+}
+
 @media screen and (min-width: 800px) {
   body {
     width: 800px;
     margin: auto;
     background-size: 5%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  i {
+    font-size: 18px;
+  }
+
+  b {
+    font-size: 16px;
   }
 
   .main_footer {
@@ -381,6 +424,16 @@ p.subtitle8:before {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .size1-right {
+    width: 238px;
+    height: 46px;
+  }
+
+  .size1-left {
+    height: 78px;
+    width: 254px;
   }
 }
 

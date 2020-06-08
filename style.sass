@@ -20,10 +20,10 @@ header
         align-self : center
         
 main
-    margin-bottom : 100px
+    margin-bottom : 20px
 
 .main_footer
-    position : fixed
+    //position : fixed
     bottom : 0
     margin-top : auto
     height : 80px
@@ -89,15 +89,16 @@ a
     justify-content : center
     text-align : center
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-    &:hover
-        opacity : 0.5
-        font-size : 25px
+    transition : opacity 0.3s ease-in-out, font-size 0.3s ease-in-out
+    //&:hover
+        //opacity : 0.5
+        //font-size : 25px
 
 .bckgrnd1
     background-color : #FCDFDB
-    //&:hover
-    //    background: rgba(252, 223, 219, 0.8)
-    //    font-size : 25px
+    &.btn:hover
+        background: rgba(252, 223, 219, 0.6)
+        font-size : 25px
 .bckgrnd2
     background-color : #FFF5FE
     //&:hover
@@ -325,6 +326,26 @@ p.subtitle8
   80%, 100%
     text-shadow: .25em 0 0 #FDCA45, .5em 0 0 #FDCA45
 
+.model
+    display : none
+.svg
+    margin-top : auto
+    margin-bottom : auto
+
+.size1-left
+    height : 35px
+    width : 120px
+
+.size1-right
+    width : 120px
+    height : 23px
+.svg1
+    fill: #3A0F15
+
+.svg2
+    fill : blue
+
+
 @media screen and (min-width: 800px)
 
     body
@@ -332,6 +353,18 @@ p.subtitle8
         margin : auto
         background-size : 5%
     
+    h1
+        font-size : 30px
+
+    h4
+        font-size: 24px
+
+    i
+        font-size : 18px
+    
+    b
+        font-size : 16px
+
     .main_footer
         width : 800px
 
@@ -344,3 +377,12 @@ p.subtitle8
         flex-direction : row
         align-items : center
         justify-content : space-evenly
+    
+    .size1-right
+        width : 238px
+        height : 46px
+    
+    .size1-left
+        height : 78px
+        width : 254px
+
