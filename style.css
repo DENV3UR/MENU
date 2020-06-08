@@ -383,8 +383,16 @@ p.subtitle8:before {
   fill: #3A0F15;
 }
 
-.svg2 {
-  fill: blue;
+.svg2-1 {
+  fill: #CE7B42;
+}
+
+.svg2-2 {
+  fill: #A56799;
+}
+
+.svg2-3 {
+  fill: #6E4CCC;
 }
 
 @media screen and (min-width: 800px) {
