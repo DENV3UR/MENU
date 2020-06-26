@@ -1,7 +1,7 @@
 
 html
     background-color: white
-    
+
 body
     height : 100%
     margin : 0px
@@ -23,10 +23,10 @@ header
         align-self : center
         
 main
-    margin-bottom : 20px
+    margin-bottom : 100px
 
 .main_footer
-    //position : fixed
+    position : fixed
     bottom : 0
     margin-top : auto
     height : 80px
@@ -44,9 +44,12 @@ main
             animation : shake 0.5s
             animation-iteration-count : infinite
         
+.italic
+    font-style: italic
 
 .menu1_footer
     margin-top : auto
+    margin-bottom: 150px
     height : 80px
     width : 100%
     display : flex
@@ -71,6 +74,7 @@ h4
     align-self : center
     padding-right : 5px
     padding-left : 5px
+
 
 a
     text-decoration : none
@@ -104,21 +108,21 @@ a
         font-size : 25px
 .bckgrnd2
     background-color : #FFF5FE
-    //&:hover
-    //    background: rgba(255, 245, 254, 0.8)
-    //    font-size : 25px
+    &.btn:hover
+        background: rgba(255, 245, 254, 0.6)
+        font-size : 25px
 
 .bckgrnd3
     background-color : #EDEFEF
-    //&:hover
-    //    background: rgba(237, 239, 239, 0.8)
-    //    font-size : 25px
+    &.btn:hover
+        background: rgba(237, 239, 239, 0.8)
+        font-size : 25px
 
 .bckgrnd4
     background-color : #FDFFFD
-    //&:hover
-    //    background: rgba(253, 255, 253, 0.8)
-    //    font-size : 25px
+    &.btn:hover
+        background: rgba(253, 255, 253, 0.8)
+        font-size : 25px
 
 .bckgrnd5
     background-color : #569C87
@@ -388,7 +392,7 @@ p.subtitle8
         background-size : 5%
     
     h1
-        font-size : 30px
+        font-size : 50px
 
     h4
         font-size: 24px
@@ -413,12 +417,12 @@ p.subtitle8
         justify-content : space-evenly
     
     .size1-right
-        width : 238px
+        width : 204px
         height : 46px
     
     .size1-left
         height : 78px
-        width : 254px
+        width : 204px
     
     .size2
         width : 204.96px
@@ -426,9 +430,19 @@ p.subtitle8
 
     .size3
         height: 69.333336px 
-        width: 293.33334px
+        width: 203.33334px
     
     .size4
         height: 53.333332px   
-        width: 333.33334px
+        width: 203.33334px
+
+    .subtitle
+        width: 300px
+
+    .dish
+        display : flex
+        flex-direction : row-reverse
+        justify-content : space-between
+        text-align : center
+        padding : 10px
 
