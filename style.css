@@ -448,7 +448,7 @@ p.subtitle8:before {
   fill: -webkit-linear-gradient(1turn, #5BAB4A, #BEFF7F);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 400px) {
   body {
     width: 800px;
     margin: auto;
@@ -473,6 +473,8 @@ p.subtitle8:before {
 
   .main_footer {
     width: 800px;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .btn {
